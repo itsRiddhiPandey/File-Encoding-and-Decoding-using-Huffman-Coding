@@ -1,0 +1,93 @@
+.decompress-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    /* Main background color */
+    position: relative;
+    /* Allows for layered positioning */
+    color: white;
+    /* Text color */
+}
+
+#background-canvas {
+    position: absolute;
+    /* Make the canvas fill the page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    /* Send the canvas to the back */
+}
+
+.decompress-content {
+    position: relative;
+    /* Ensure content is on top */
+    z-index: 1;
+    /* Content appears above the canvas */
+    text-align: center;
+    /* Center the text */
+    margin: 0 20px;
+    /* Add margin for aesthetics */
+}
+
+h1 {
+    font-size: 2.5rem;
+    /* Title font size */
+    margin-bottom: 20px;
+    /* Space below title */
+}
+
+input[type="file"] {
+    margin-top: 20px;
+    /* Space above the file input */
+    padding: 10px;
+    /* Padding for file input */
+    border: 2px solid white;
+    /* Border color */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Background color */
+    color: white;
+    /* Text color */
+    font-size: 1rem;
+    /* Font size */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+button {
+    padding: 10px 20px;
+    /* Padding for button */
+    margin-top: 20px;
+    /* Space above button */
+    cursor: pointer;
+    /* Pointer on hover */
+    background-color: red;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 1.2rem;
+    /* Button font size */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+button:hover {
+    background-color: darkred;
+    /* Darker background on hover */
+}
+
+p {
+    margin-top: 15px;
+    /* Space above file name text */
+    font-size: 1rem;
+    /* Font size for file name */
+    color: white;
+    /* Text color for file name */
+}

@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Production build files
+build/
+
+# Testing
+coverage/
+
+# Miscellaneous
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Parcel-bundler cache (if used)
+.cache/
+
+# Next.js build output (if used)
+.next/
