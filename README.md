@@ -44,16 +44,16 @@ The project consists of two main parts:
 ## 📸 Screenshots
 
 ### 1. **Homepage**
-*Add a screenshot here of the homepage UI.*  
+
 ![Homepage Screenshot](./screenshots/HomePage.png)
 
 ### 2. **Encoding Page**
-*Add a screenshot here of the encoding page UI.*  
+ 
 ![Encoding Page Screenshot](./screenshots/EncodingPage.png)
 ![Encoding Page after uploading the text file and downloading the encoded file Screenshot](./screenshots/EncodingPage2.png)
 
 ### 3. **Decoding Page**
-*Add a screenshot here of the decoding page UI.*  
+
 ![Decoding Page Screenshot](./screenshots/DecodingPage.png)
 
 ---
