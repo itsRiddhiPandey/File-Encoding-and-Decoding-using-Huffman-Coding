@@ -62,7 +62,7 @@ The project consists of two main parts:
 
 ### Input Data (Inside the Uploaded Text File)
 The original text file contains the following data:  
-```
+
 This is a sample text to demonstrate Huffman encoding of text files. 
 
 ![Text File Screenshot](./screenshots/ActualData.png)
@@ -72,6 +72,7 @@ This is a sample text to demonstrate Huffman encoding of text files.
 ### Encoded Output (Inside the Downloaded File)
 After encoding, the file contains the following binary representation:  
 ```
+
 ![Encoded File Screenshot](./screenshots/EncodedData.png)
 
 ```
