@@ -1,8 +1,3 @@
-Here’s the updated `README.md` file where "compression" and "decompression" have been changed to **"encoding"** and **"decoding"** to better reflect your project. All references are updated accordingly.
-
----
-
-```markdown
 # Huffman Encoding Project
 
 This is a full-stack project that implements Huffman Encoding and Decoding algorithms for text files using the MERN stack (MongoDB, Express, React, and Node.js).
