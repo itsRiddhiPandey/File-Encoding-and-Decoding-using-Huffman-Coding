@@ -67,27 +67,24 @@ This is a sample text to demonstrate Huffman encoding of text files.
 
 ![Text File Screenshot](./screenshots/ActualData.png)
 
-```
+
 
 ### Encoded Output (Inside the Downloaded File)
 After encoding, the file contains the following binary representation:  
-```
 
 ![Encoded File Screenshot](./screenshots/EncodedData.png)
 
-```
+
 
 ### Decoded Output
-After decoding the binary file, the original text is restored:  
-```
-This is a sample text to demonstrate Huffman encoding of text files.
-```
+After decoding the binary file, the original text is restored 
+
 
 ### Encoding and Decoding Process
 - **Encoding**: Converts characters in the input text to a unique binary representation based on frequency.
 - **Decoding**: Reconstructs the original text from the binary data using the Huffman decoding tree.
 
----
+
 
 ## ⚙️ Installation and Setup
 
